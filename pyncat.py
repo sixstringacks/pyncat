@@ -1,7 +1,3 @@
-# To do:
-# encrypt?
-# data transfer?
-
 import sys, socket, threading, subprocess, argparse,os
 
 verbose = ""
