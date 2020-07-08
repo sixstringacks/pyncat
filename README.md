@@ -1,4 +1,4 @@
-pyncat is a simple netcat clone
+pyncat is a simple implementation of netcat
 
 ```
 python .\pyncat.py -h
