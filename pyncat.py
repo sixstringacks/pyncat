@@ -39,7 +39,7 @@ def server_mode(host,port):
             
             return server
         except Exception as e:
-            print("An error occured", e)
+            print("Error binding to socket", e)
     
     # Accept connections. When connection received call client_session
     def socket_accept(server):
@@ -93,9 +93,9 @@ pyncat | A simple python implementation of netcat
 
     """)
     parser = argparse.ArgumentParser(description="A python implementation of netcat.")
-    parser.add_argument("-l", "--listen", help="listen for incoming connections (server mode)", action="store_true")
+    parser.add_argument("-l", "--listen", help="listen for incoming connections (listen mode)", action="store_true")
     parser.add_argument("-p", "--port", help="source port", type=int, required=True)
-    parser.add_argument("-t", "--host", help="specify the target port to connect to", default="0.0.0.0",type=str, required=True)
+    parser.add_argument("-t", "--host", help="target host / IP to listen on if in listen mode", default="0.0.0.0",type=str, required=True)
     parser.add_argument("-v", "--verbose", help="increase verbosity", action="store_true")
 
     args = parser.parse_args()
