@@ -85,7 +85,7 @@ def main():
     /_/    /____/                  
      
 pyncat | A simple python implementation of netcat
-          written by @infoplague
+          written by @autocowrekt
 
     """)
     parser = argparse.ArgumentParser(description="A python implementation of netcat.")
