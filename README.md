@@ -1,4 +1,4 @@
-pyncat is a simple implementation of netcat
+pyncat is a simple implementation of netcat. This is based on the version found in Black Hat Python.
 
 ```
 python .\pyncat.py -h
@@ -10,7 +10,7 @@ python .\pyncat.py -h
     /_/    /____/
 
 pyncat | A simple python implementation of netcat
-          written by @infoplague
+          written by @autocorekt
 
 
 usage: pyncat.py [-h] [-l] -p PORT -t HOST [-v]
