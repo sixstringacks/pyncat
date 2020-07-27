@@ -10,7 +10,7 @@ python .\pyncat.py -h
     /_/    /____/
 
 pyncat | A simple python implementation of netcat
-          written by @autocorekt
+          written by @autocowrekt
 
 
 usage: pyncat.py [-h] [-l] -p PORT -t HOST [-v]
